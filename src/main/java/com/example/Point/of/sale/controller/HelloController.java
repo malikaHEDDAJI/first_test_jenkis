@@ -18,6 +18,11 @@ public class HelloController {
         return "Users";
     }
 
+    @GetMapping
+    public String hello() {
+        return "Hello from New Test :)";
+    }
+
 
     @GetMapping("/presentation")
     public String getPresentation(){
